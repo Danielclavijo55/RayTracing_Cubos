@@ -1,0 +1,3299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C9D7D7B9B359468884561B75 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8D73BFE5EBDD03AE313CA10B /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E840B40E5E600DDA6F4FE7FB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 10C8A874832A431188D89FBB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B8F0E11620977F8A32511589 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				AF62FCDCD9C9429E93A6BFC6 /* PBXTargetDependency */,
+				791E79B15CA0470BB2D9AF65 /* PBXTargetDependency */,
+				BF4EB76714494160B8D086CD /* PBXTargetDependency */,
+				F620E58DF5794E75BC7596B8 /* PBXTargetDependency */,
+				0974071F59CD42B29465DC7A /* PBXTargetDependency */,
+				BBF57E911F734412A01D5082 /* PBXTargetDependency */,
+				458B512121A743BD8715EBA5 /* PBXTargetDependency */,
+				D46136C999704CB2B952A468 /* PBXTargetDependency */,
+				93F2AC597F4646D0806D97D3 /* PBXTargetDependency */,
+				5C03DC6434354E8BB7CB919D /* PBXTargetDependency */,
+				724645295FA94EE197295127 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3785590E2F6B45DDB0401B38 /* cos_cubed.cc in Sources */ = {isa = PBXBuildFile; fileRef = 06950D3289C24CBDAF96F91D /* cos_cubed.cc */; };
+		3B82F58939904A2D87B98320 /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2BD1B979C18E4766B4DBBF4E /* main.cc */; };
+		3E3C992667FA4CCF99E06D94 /* cos_density.cc in Sources */ = {isa = PBXBuildFile; fileRef = 21AC54CA0D744046A415825E /* cos_density.cc */; };
+		42B95D4D45574421B4DA40A8 /* estimate_halfway.cc in Sources */ = {isa = PBXBuildFile; fileRef = E6E48E2EA64C41C29592D1C0 /* estimate_halfway.cc */; };
+		49CF55D709864C14BCEE11FE /* sphere_importance.cc in Sources */ = {isa = PBXBuildFile; fileRef = C31F3FF9EF6741459F1089F6 /* sphere_importance.cc */; };
+		4FC0B469FB5C4508BFEB5126 /* pi.cc in Sources */ = {isa = PBXBuildFile; fileRef = B649933487E94E8CB2A3F314 /* pi.cc */; };
+		58D62FC9598D442AB2103BF1 /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 527520A12D444A7381ECF4AD /* main.cc */; };
+		5C49FF7F02E040E28C420C86 /* integrate_x_sq.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1D2032F11164462590734650 /* integrate_x_sq.cc */; };
+		771D685A4B024C11B77F0E44 /* sphere_plot.cc in Sources */ = {isa = PBXBuildFile; fileRef = EEE5C576D73F4BAC940372D9 /* sphere_plot.cc */; };
+		9D0011CBA5C1495D8B3F2CBD /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6C1AE93A87BB4ABFB554C3A0 /* main.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		073E4E91D19546498A1F5D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0CEA207C7007EB6E31DB29;
+			remoteInfo = ZERO_CHECK;
+		};
+		1C9444DAA28945CA91D003EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004ED1F40EB56655208BE239;
+			remoteInfo = cos_density;
+		};
+		2D539E02081C4D82A6484C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0CEA207C7007EB6E31DB29;
+			remoteInfo = ZERO_CHECK;
+		};
+		30BEEAFB0596450B930CA365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0CEA207C7007EB6E31DB29;
+			remoteInfo = ZERO_CHECK;
+		};
+		49D6D7E17E2343E688E380FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769CC51F1B3321C96958CE44;
+			remoteInfo = estimate_halfway;
+		};
+		57C0327707214359AB1ED71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0CEA207C7007EB6E31DB29;
+			remoteInfo = ZERO_CHECK;
+		};
+		5E14AB51B1BC45499B63242B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0CEA207C7007EB6E31DB29;
+			remoteInfo = ZERO_CHECK;
+		};
+		6B6B2B08A28042589AE5C404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0CEA207C7007EB6E31DB29;
+			remoteInfo = ZERO_CHECK;
+		};
+		6DDA3854A5434032A652D9E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9070A3E8CA780675373743D;
+			remoteInfo = cos_cubed;
+		};
+		8C8CAAA14B7F43E79CCFE5E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA11238727E44C8EB0AE0337;
+			remoteInfo = integrate_x_sq;
+		};
+		9D3AA342EA304414B35861E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98C46F1B9DB6DEA641F4CA6;
+			remoteInfo = pi;
+		};
+		A8D37B7C8D9D4098861AA7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0CEA207C7007EB6E31DB29;
+			remoteInfo = ZERO_CHECK;
+		};
+		B6E80F754042431C9D8EA5CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0C0AE8339EFD4561039FE1;
+			remoteInfo = sphere_importance;
+		};
+		BE770CDF2F224A17AF44B387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0CEA207C7007EB6E31DB29;
+			remoteInfo = ZERO_CHECK;
+		};
+		CCD13C9FDB1C4F76A42FE904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0CEA207C7007EB6E31DB29;
+			remoteInfo = ZERO_CHECK;
+		};
+		CF596339170A4188922D6A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0CEA207C7007EB6E31DB29;
+			remoteInfo = ZERO_CHECK;
+		};
+		D0BDC6A6DA6F46758B6E8336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E04468FBD25DB83A71B2BD;
+			remoteInfo = sphere_plot;
+		};
+		DE5CB6F326A94D2F81B9B594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0CEA207C7007EB6E31DB29;
+			remoteInfo = ZERO_CHECK;
+		};
+		E0720A4C071F414CA88BAB79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33DEC80CB3C94166596DE431;
+			remoteInfo = theRestOfYourLife;
+		};
+		F43DFE6C0D2E4AC787BEAE31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06006829780E64B90A3B6D22;
+			remoteInfo = inOneWeekend;
+		};
+		FC8F6E1F9456407A9B0D648D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234B6B8E442E49738DAD6DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7234B08BB2D9759FEF6CAF37;
+			remoteInfo = theNextWeek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06950D3289C24CBDAF96F91D /* cos_cubed.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cos_cubed.cc; path = src/TheRestOfYourLife/cos_cubed.cc; sourceTree = SOURCE_ROOT; };
+		08D2F1CB024F4D6BA0D766F6 /* color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color.h; path = src/TheNextWeek/color.h; sourceTree = SOURCE_ROOT; };
+		11847F44F1EF4F99922AE8C4 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1987DEF86E5E4F75938DA718 /* color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color.h; path = src/InOneWeekend/color.h; sourceTree = SOURCE_ROOT; };
+		1D2032F11164462590734650 /* integrate_x_sq.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = integrate_x_sq.cc; path = src/TheRestOfYourLife/integrate_x_sq.cc; sourceTree = SOURCE_ROOT; };
+		1DC3CAF872264D80BAE53B3C /* quad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quad.h; path = src/TheNextWeek/quad.h; sourceTree = SOURCE_ROOT; };
+		2043CE96E6E746C7B991CBC0 /* sphere_importance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sphere_importance; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AC54CA0D744046A415825E /* cos_density.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cos_density.cc; path = src/TheRestOfYourLife/cos_density.cc; sourceTree = SOURCE_ROOT; };
+		2314F6679AC04C02B6D16AFD /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		24DCE4C55A144B4298DB1566 /* sphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sphere.h; path = src/TheRestOfYourLife/sphere.h; sourceTree = SOURCE_ROOT; };
+		25EE25A59986422EABD50CDE /* interval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = interval.h; path = src/InOneWeekend/interval.h; sourceTree = SOURCE_ROOT; };
+		272E788F96E641B18EE54973 /* cos_density */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = cos_density; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F91FCCE35A462BA7A4DF3C /* rtw_stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rtw_stb_image.h; path = src/TheRestOfYourLife/rtw_stb_image.h; sourceTree = SOURCE_ROOT; };
+		28E4F11470BA49138F8A4ECD /* perlin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = perlin.h; path = src/TheRestOfYourLife/perlin.h; sourceTree = SOURCE_ROOT; };
+		2A879F1BAB41420F94D2EFC4 /* hittable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hittable.h; path = src/TheRestOfYourLife/hittable.h; sourceTree = SOURCE_ROOT; };
+		2AFBD29BC1314857A6BE0623 /* texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = texture.h; path = src/TheNextWeek/texture.h; sourceTree = SOURCE_ROOT; };
+		2BD1B979C18E4766B4DBBF4E /* main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cc; path = src/InOneWeekend/main.cc; sourceTree = SOURCE_ROOT; };
+		32F10157799547F596E858B3 /* ray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ray.h; path = src/TheRestOfYourLife/ray.h; sourceTree = SOURCE_ROOT; };
+		33C16D06EFA94082BE13DC54 /* material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = material.h; path = src/TheRestOfYourLife/material.h; sourceTree = SOURCE_ROOT; };
+		33CED0E71C154D06B7162F16 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3B85F2B3F3EB43AB97553257 /* material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = material.h; path = src/InOneWeekend/material.h; sourceTree = SOURCE_ROOT; };
+		3C3774CD7E57453EBB692ADE /* aabb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = aabb.h; path = src/TheNextWeek/aabb.h; sourceTree = SOURCE_ROOT; };
+		3DBC423FC3A74E44A222CBA8 /* onb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = onb.h; path = src/TheRestOfYourLife/onb.h; sourceTree = SOURCE_ROOT; };
+		3E5D0CA40F014EC69F187EF5 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3F19AAAA66EB42B194CC6025 /* stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = src/external/stb_image.h; sourceTree = SOURCE_ROOT; };
+		470773E7FDA249D79A11E9AD /* hittable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hittable.h; path = src/TheNextWeek/hittable.h; sourceTree = SOURCE_ROOT; };
+		47E0C27A15964D14B7C2DF42 /* vec3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec3.h; path = src/InOneWeekend/vec3.h; sourceTree = SOURCE_ROOT; };
+		4A2891B3710C4DC2BDED40AD /* interval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = interval.h; path = src/TheRestOfYourLife/interval.h; sourceTree = SOURCE_ROOT; };
+		4A4B2BFA0C504613A580D75A /* pi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = pi; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF097C53D7146E79CC3383E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4D31113CD20949C5A43F43AC /* pdf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pdf.h; path = src/TheRestOfYourLife/pdf.h; sourceTree = SOURCE_ROOT; };
+		4D557E80128F45D6AA7776B0 /* estimate_halfway */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = estimate_halfway; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA0D02C35FB48998F62D449 /* bvh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bvh.h; path = src/TheNextWeek/bvh.h; sourceTree = SOURCE_ROOT; };
+		50AD71D318BD4BA297ECACC9 /* sphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sphere.h; path = src/TheNextWeek/sphere.h; sourceTree = SOURCE_ROOT; };
+		527520A12D444A7381ECF4AD /* main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cc; path = src/TheRestOfYourLife/main.cc; sourceTree = SOURCE_ROOT; };
+		5BD29CF1F36844239526BC82 /* sphere_plot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sphere_plot; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3DA422FADD4E049CDFB2EB /* vec3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec3.h; path = src/TheNextWeek/vec3.h; sourceTree = SOURCE_ROOT; };
+		5EF5B5A3B2294B068C9AE882 /* ray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ray.h; path = src/TheNextWeek/ray.h; sourceTree = SOURCE_ROOT; };
+		5F89A091FCCC47939EBEC5D8 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		617D327A81F845E2AD8AAF8B /* cos_cubed */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = cos_cubed; sourceTree = BUILT_PRODUCTS_DIR; };
+		637BE6A5FA8643999966BACD /* stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = src/external/stb_image.h; sourceTree = SOURCE_ROOT; };
+		638860812D9CDE0500449823 /* box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
+		638860822D9CDF6600449823 /* box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
+		638860832D9CDFC100449823 /* box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
+		69A12BB7EC594E0EBE3847DD /* rtw_stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rtw_stb_image.h; path = src/TheNextWeek/rtw_stb_image.h; sourceTree = SOURCE_ROOT; };
+		6C1AE93A87BB4ABFB554C3A0 /* main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cc; path = src/TheNextWeek/main.cc; sourceTree = SOURCE_ROOT; };
+		6DBB35F14CE94C0C899809FF /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		74A3ACBFF4174B7EBD0C5269 /* constant_medium.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = constant_medium.h; path = src/TheNextWeek/constant_medium.h; sourceTree = SOURCE_ROOT; };
+		75E6C09A1D394A839A134C88 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		770E96DBA48B4FC38833F12E /* material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = material.h; path = src/TheNextWeek/material.h; sourceTree = SOURCE_ROOT; };
+		78212D14059E412E919FFAD8 /* aabb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = aabb.h; path = src/TheRestOfYourLife/aabb.h; sourceTree = SOURCE_ROOT; };
+		78EA089B27514077A858E3BF /* integrate_x_sq */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = integrate_x_sq; sourceTree = BUILT_PRODUCTS_DIR; };
+		79ED700A9786475AB883FE73 /* constant_medium.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = constant_medium.h; path = src/TheRestOfYourLife/constant_medium.h; sourceTree = SOURCE_ROOT; };
+		7B9F59F3DD244667AF00DA64 /* vec3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec3.h; path = src/TheRestOfYourLife/vec3.h; sourceTree = SOURCE_ROOT; };
+		8555D2D9606C414E9AE2DA9D /* theNextWeek */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = theNextWeek; sourceTree = BUILT_PRODUCTS_DIR; };
+		88454F56BDD8438194549E3E /* hittable_list.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hittable_list.h; path = src/InOneWeekend/hittable_list.h; sourceTree = SOURCE_ROOT; };
+		8AA10DA69A964882A1BFE4A3 /* camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = src/TheRestOfYourLife/camera.h; sourceTree = SOURCE_ROOT; };
+		8E825D6B11FC4985BE6A247C /* texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = texture.h; path = src/TheRestOfYourLife/texture.h; sourceTree = SOURCE_ROOT; };
+		A1C33FB2576045478105C080 /* ray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ray.h; path = src/InOneWeekend/ray.h; sourceTree = SOURCE_ROOT; };
+		A223694F19A446D5BAAEA47F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B1097B8CAAB24C69A4457A7A /* camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = src/InOneWeekend/camera.h; sourceTree = SOURCE_ROOT; };
+		B26BF4B215B94D1CB5244E72 /* perlin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = perlin.h; path = src/TheNextWeek/perlin.h; sourceTree = SOURCE_ROOT; };
+		B649933487E94E8CB2A3F314 /* pi.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pi.cc; path = src/TheRestOfYourLife/pi.cc; sourceTree = SOURCE_ROOT; };
+		BA7AFFE15ADB4EAB9FA371B6 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BB3C4C8B4C104B5B89FBACB4 /* camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = src/TheNextWeek/camera.h; sourceTree = SOURCE_ROOT; };
+		BCE896E717074564891B9924 /* hittable_list.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hittable_list.h; path = src/TheRestOfYourLife/hittable_list.h; sourceTree = SOURCE_ROOT; };
+		BE9E80B08F1B4819A8A0F55F /* rtweekend.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rtweekend.h; path = src/InOneWeekend/rtweekend.h; sourceTree = SOURCE_ROOT; };
+		C1DDA6E8F1EA451ABF535EE3 /* interval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = interval.h; path = src/TheNextWeek/interval.h; sourceTree = SOURCE_ROOT; };
+		C31F3FF9EF6741459F1089F6 /* sphere_importance.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sphere_importance.cc; path = src/TheRestOfYourLife/sphere_importance.cc; sourceTree = SOURCE_ROOT; };
+		CCC210D9D489477CBE417B82 /* sphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sphere.h; path = src/InOneWeekend/sphere.h; sourceTree = SOURCE_ROOT; };
+		D1284046F03046ADBEDD1E2A /* quad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quad.h; path = src/TheRestOfYourLife/quad.h; sourceTree = SOURCE_ROOT; };
+		D45C7FE73D694CD29BAFD816 /* rtweekend.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rtweekend.h; path = src/TheNextWeek/rtweekend.h; sourceTree = SOURCE_ROOT; };
+		D68114AC5573425A99E2ADBE /* color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color.h; path = src/TheRestOfYourLife/color.h; sourceTree = SOURCE_ROOT; };
+		DB6E3A84834F428788B507F4 /* hittable_list.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hittable_list.h; path = src/TheNextWeek/hittable_list.h; sourceTree = SOURCE_ROOT; };
+		DEA9093454E34FC888C47D5B /* theRestOfYourLife */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = theRestOfYourLife; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A16F3EB6A24029A9FBD89C /* rtweekend.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rtweekend.h; path = src/TheRestOfYourLife/rtweekend.h; sourceTree = SOURCE_ROOT; };
+		E6E48E2EA64C41C29592D1C0 /* estimate_halfway.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = estimate_halfway.cc; path = src/TheRestOfYourLife/estimate_halfway.cc; sourceTree = SOURCE_ROOT; };
+		EEE5C576D73F4BAC940372D9 /* sphere_plot.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sphere_plot.cc; path = src/TheRestOfYourLife/sphere_plot.cc; sourceTree = SOURCE_ROOT; };
+		EF335F2A2ECD4B059F55BF4A /* hittable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hittable.h; path = src/InOneWeekend/hittable.h; sourceTree = SOURCE_ROOT; };
+		EF9B6E5EBF0345A9B539CFCA /* stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = src/external/stb_image.h; sourceTree = SOURCE_ROOT; };
+		F3768EAEEA554072B64D0833 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F41A2622596941AA85F349F3 /* inOneWeekend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = inOneWeekend; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		018E7E11D5CB403D81E8AA1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5A6BA428174BE79F1A4356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5624560FD6F0419B990DE2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AD33041E3D4E8BB4F6D803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8147B8361B8D40118A00393E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB948AB346844619CBF14C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAAC9F4EB2F4680A6B79DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CFFEF197214C53B2C3B195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB83B5744C2F4E7A97C6E1C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD253E56E6B049A0AA37E236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056EFACEE4404C0CAA88FC99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15562115CC0143CE9D541711 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6E48E2EA64C41C29592D1C0 /* estimate_halfway.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3257EA5C0A574B708126BDE3 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C3774CD7E57453EBB692ADE /* aabb.h */,
+				4EA0D02C35FB48998F62D449 /* bvh.h */,
+				BB3C4C8B4C104B5B89FBACB4 /* camera.h */,
+				08D2F1CB024F4D6BA0D766F6 /* color.h */,
+				74A3ACBFF4174B7EBD0C5269 /* constant_medium.h */,
+				470773E7FDA249D79A11E9AD /* hittable.h */,
+				DB6E3A84834F428788B507F4 /* hittable_list.h */,
+				C1DDA6E8F1EA451ABF535EE3 /* interval.h */,
+				770E96DBA48B4FC38833F12E /* material.h */,
+				B26BF4B215B94D1CB5244E72 /* perlin.h */,
+				1DC3CAF872264D80BAE53B3C /* quad.h */,
+				5EF5B5A3B2294B068C9AE882 /* ray.h */,
+				69A12BB7EC594E0EBE3847DD /* rtw_stb_image.h */,
+				D45C7FE73D694CD29BAFD816 /* rtweekend.h */,
+				50AD71D318BD4BA297ECACC9 /* sphere.h */,
+				2AFBD29BC1314857A6BE0623 /* texture.h */,
+				5C3DA422FADD4E049CDFB2EB /* vec3.h */,
+				EF9B6E5EBF0345A9B539CFCA /* stb_image.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		69091CDCC6D841D2B52E8E0D = {
+			isa = PBXGroup;
+			children = (
+				E4D7633E192441E7B224C235 /* inOneWeekend */,
+				BEA5535F84BE4AC6AEA55053 /* theNextWeek */,
+				F8D3ABF71D5C48B1BAF5D8D6 /* theRestOfYourLife */,
+				EEA7399CF7974E688B02F6D9 /* cos_cubed */,
+				BC29193E243F44BBA9F4F174 /* cos_density */,
+				A90F6A01005C46FB85F7779E /* integrate_x_sq */,
+				B7F8FDD870044C39B32B22FC /* pi */,
+				933B5B1BCAEE4324B49974A8 /* estimate_halfway */,
+				A2DF9CFA987142ACB00B09AC /* sphere_importance */,
+				B3C57B1E1B99493B92919003 /* sphere_plot */,
+				CB4DC6DF9FF34218B4E419B4 /* ALL_BUILD */,
+				6CAE37D07ACC4C619F110ACE /* Products */,
+				056EFACEE4404C0CAA88FC99 /* Frameworks */,
+				B71E541341094F7E8E699E8F /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		6AEB9778C886445E9088865A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BD1B979C18E4766B4DBBF4E /* main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6CAE37D07ACC4C619F110ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				617D327A81F845E2AD8AAF8B /* cos_cubed */,
+				272E788F96E641B18EE54973 /* cos_density */,
+				4D557E80128F45D6AA7776B0 /* estimate_halfway */,
+				F41A2622596941AA85F349F3 /* inOneWeekend */,
+				78EA089B27514077A858E3BF /* integrate_x_sq */,
+				4A4B2BFA0C504613A580D75A /* pi */,
+				2043CE96E6E746C7B991CBC0 /* sphere_importance */,
+				5BD29CF1F36844239526BC82 /* sphere_plot */,
+				8555D2D9606C414E9AE2DA9D /* theNextWeek */,
+				DEA9093454E34FC888C47D5B /* theRestOfYourLife */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71CF3DB1D20B469D975BC35D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C1AE93A87BB4ABFB554C3A0 /* main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		754E7B4BCB2D44F5B2B4FE3E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5C576D73F4BAC940372D9 /* sphere_plot.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		79ED3CA7042246D19EDB0480 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				527520A12D444A7381ECF4AD /* main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8FF33F7CF8F0420A98A66B3D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D2032F11164462590734650 /* integrate_x_sq.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		933B5B1BCAEE4324B49974A8 /* estimate_halfway */ = {
+			isa = PBXGroup;
+			children = (
+				15562115CC0143CE9D541711 /* Source Files */,
+				5F89A091FCCC47939EBEC5D8 /* CMakeLists.txt */,
+			);
+			name = estimate_halfway;
+			sourceTree = "<group>";
+		};
+		A2DF9CFA987142ACB00B09AC /* sphere_importance */ = {
+			isa = PBXGroup;
+			children = (
+				BBD99024680C4273AE43B78A /* Source Files */,
+				3E5D0CA40F014EC69F187EF5 /* CMakeLists.txt */,
+			);
+			name = sphere_importance;
+			sourceTree = "<group>";
+		};
+		A90F6A01005C46FB85F7779E /* integrate_x_sq */ = {
+			isa = PBXGroup;
+			children = (
+				8FF33F7CF8F0420A98A66B3D /* Source Files */,
+				4BF097C53D7146E79CC3383E /* CMakeLists.txt */,
+			);
+			name = integrate_x_sq;
+			sourceTree = "<group>";
+		};
+		B3C57B1E1B99493B92919003 /* sphere_plot */ = {
+			isa = PBXGroup;
+			children = (
+				754E7B4BCB2D44F5B2B4FE3E /* Source Files */,
+				33CED0E71C154D06B7162F16 /* CMakeLists.txt */,
+			);
+			name = sphere_plot;
+			sourceTree = "<group>";
+		};
+		B71E541341094F7E8E699E8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B7F8FDD870044C39B32B22FC /* pi */ = {
+			isa = PBXGroup;
+			children = (
+				FB6EDA21E249415EBD232E86 /* Source Files */,
+				BA7AFFE15ADB4EAB9FA371B6 /* CMakeLists.txt */,
+			);
+			name = pi;
+			sourceTree = "<group>";
+		};
+		BBD99024680C4273AE43B78A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C31F3FF9EF6741459F1089F6 /* sphere_importance.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BC29193E243F44BBA9F4F174 /* cos_density */ = {
+			isa = PBXGroup;
+			children = (
+				EC6AC8ADFA1C4E6B8959CE49 /* Source Files */,
+				2314F6679AC04C02B6D16AFD /* CMakeLists.txt */,
+			);
+			name = cos_density;
+			sourceTree = "<group>";
+		};
+		BEA5535F84BE4AC6AEA55053 /* theNextWeek */ = {
+			isa = PBXGroup;
+			children = (
+				3257EA5C0A574B708126BDE3 /* Header Files */,
+				71CF3DB1D20B469D975BC35D /* Source Files */,
+				11847F44F1EF4F99922AE8C4 /* CMakeLists.txt */,
+			);
+			name = theNextWeek;
+			sourceTree = "<group>";
+		};
+		CB4DC6DF9FF34218B4E419B4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D94AA0A857004956B90A5B2D /* CMake Rules */,
+				A223694F19A446D5BAAEA47F /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D94AA0A857004956B90A5B2D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E4D7633E192441E7B224C235 /* inOneWeekend */ = {
+			isa = PBXGroup;
+			children = (
+				EA97D461883F4F869ECD12DF /* Header Files */,
+				6AEB9778C886445E9088865A /* Source Files */,
+				75E6C09A1D394A839A134C88 /* CMakeLists.txt */,
+			);
+			name = inOneWeekend;
+			sourceTree = "<group>";
+		};
+		EA97D461883F4F869ECD12DF /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				638860832D9CDFC100449823 /* box.h */,
+				638860822D9CDF6600449823 /* box.h */,
+				638860812D9CDE0500449823 /* box.h */,
+				B1097B8CAAB24C69A4457A7A /* camera.h */,
+				1987DEF86E5E4F75938DA718 /* color.h */,
+				EF335F2A2ECD4B059F55BF4A /* hittable.h */,
+				88454F56BDD8438194549E3E /* hittable_list.h */,
+				25EE25A59986422EABD50CDE /* interval.h */,
+				3B85F2B3F3EB43AB97553257 /* material.h */,
+				A1C33FB2576045478105C080 /* ray.h */,
+				BE9E80B08F1B4819A8A0F55F /* rtweekend.h */,
+				CCC210D9D489477CBE417B82 /* sphere.h */,
+				47E0C27A15964D14B7C2DF42 /* vec3.h */,
+				3F19AAAA66EB42B194CC6025 /* stb_image.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EC6AC8ADFA1C4E6B8959CE49 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				21AC54CA0D744046A415825E /* cos_density.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EE84508E795848D4A6FDE830 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				78212D14059E412E919FFAD8 /* aabb.h */,
+				8AA10DA69A964882A1BFE4A3 /* camera.h */,
+				D68114AC5573425A99E2ADBE /* color.h */,
+				79ED700A9786475AB883FE73 /* constant_medium.h */,
+				2A879F1BAB41420F94D2EFC4 /* hittable.h */,
+				BCE896E717074564891B9924 /* hittable_list.h */,
+				4A2891B3710C4DC2BDED40AD /* interval.h */,
+				33C16D06EFA94082BE13DC54 /* material.h */,
+				3DBC423FC3A74E44A222CBA8 /* onb.h */,
+				4D31113CD20949C5A43F43AC /* pdf.h */,
+				28E4F11470BA49138F8A4ECD /* perlin.h */,
+				D1284046F03046ADBEDD1E2A /* quad.h */,
+				32F10157799547F596E858B3 /* ray.h */,
+				27F91FCCE35A462BA7A4DF3C /* rtw_stb_image.h */,
+				E1A16F3EB6A24029A9FBD89C /* rtweekend.h */,
+				24DCE4C55A144B4298DB1566 /* sphere.h */,
+				8E825D6B11FC4985BE6A247C /* texture.h */,
+				7B9F59F3DD244667AF00DA64 /* vec3.h */,
+				637BE6A5FA8643999966BACD /* stb_image.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EEA7399CF7974E688B02F6D9 /* cos_cubed */ = {
+			isa = PBXGroup;
+			children = (
+				FDF99A01DBD745D4AFE9E0CA /* Source Files */,
+				F3768EAEEA554072B64D0833 /* CMakeLists.txt */,
+			);
+			name = cos_cubed;
+			sourceTree = "<group>";
+		};
+		F8D3ABF71D5C48B1BAF5D8D6 /* theRestOfYourLife */ = {
+			isa = PBXGroup;
+			children = (
+				EE84508E795848D4A6FDE830 /* Header Files */,
+				79ED3CA7042246D19EDB0480 /* Source Files */,
+				6DBB35F14CE94C0C899809FF /* CMakeLists.txt */,
+			);
+			name = theRestOfYourLife;
+			sourceTree = "<group>";
+		};
+		FB6EDA21E249415EBD232E86 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B649933487E94E8CB2A3F314 /* pi.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FDF99A01DBD745D4AFE9E0CA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				06950D3289C24CBDAF96F91D /* cos_cubed.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		004ED1F40EB56655208BE239 /* cos_density */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418C72616B7D44C5B3FB7827 /* Build configuration list for PBXNativeTarget "cos_density" */;
+			buildPhases = (
+				B0F2182349004366A1EB1A3A /* Sources */,
+				8FAAC9F4EB2F4680A6B79DD0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8ACC5DAA6634FC091F40939 /* PBXTargetDependency */,
+			);
+			name = cos_density;
+			productName = cos_density;
+			productReference = 272E788F96E641B18EE54973 /* cos_density */;
+			productType = "com.apple.product-type.tool";
+		};
+		06006829780E64B90A3B6D22 /* inOneWeekend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E959A0A1E1FA441692D2D0A9 /* Build configuration list for PBXNativeTarget "inOneWeekend" */;
+			buildPhases = (
+				BB64918FB8BE4850A8991AA8 /* Sources */,
+				D2CFFEF197214C53B2C3B195 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99DA757E56C94F70ACF939CF /* PBXTargetDependency */,
+			);
+			name = inOneWeekend;
+			productName = inOneWeekend;
+			productReference = F41A2622596941AA85F349F3 /* inOneWeekend */;
+			productType = "com.apple.product-type.tool";
+		};
+		33DEC80CB3C94166596DE431 /* theRestOfYourLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72A8784A9244332A3308B3A /* Build configuration list for PBXNativeTarget "theRestOfYourLife" */;
+			buildPhases = (
+				CBDC8E8DF8BC4A2EAB15D4B6 /* Sources */,
+				3A5A6BA428174BE79F1A4356 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC3B764B93B440F9976350B /* PBXTargetDependency */,
+			);
+			name = theRestOfYourLife;
+			productName = theRestOfYourLife;
+			productReference = DEA9093454E34FC888C47D5B /* theRestOfYourLife */;
+			productType = "com.apple.product-type.tool";
+		};
+		7234B08BB2D9759FEF6CAF37 /* theNextWeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1F84E0794E43EF90DCC09A /* Build configuration list for PBXNativeTarget "theNextWeek" */;
+			buildPhases = (
+				9925313FEF2D4C20A9D3BADE /* Sources */,
+				FD253E56E6B049A0AA37E236 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D764B5FBE4F6478F8A8FD6FD /* PBXTargetDependency */,
+			);
+			name = theNextWeek;
+			productName = theNextWeek;
+			productReference = 8555D2D9606C414E9AE2DA9D /* theNextWeek */;
+			productType = "com.apple.product-type.tool";
+		};
+		769CC51F1B3321C96958CE44 /* estimate_halfway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EC73F73D1C405EAA04ABC1 /* Build configuration list for PBXNativeTarget "estimate_halfway" */;
+			buildPhases = (
+				7A481DCD709E4BEC86E47B7E /* Sources */,
+				5624560FD6F0419B990DE2CE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681F28541C694210B859C802 /* PBXTargetDependency */,
+			);
+			name = estimate_halfway;
+			productName = estimate_halfway;
+			productReference = 4D557E80128F45D6AA7776B0 /* estimate_halfway */;
+			productType = "com.apple.product-type.tool";
+		};
+		B9070A3E8CA780675373743D /* cos_cubed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB601F8DB1D34FF68CA7FC3D /* Build configuration list for PBXNativeTarget "cos_cubed" */;
+			buildPhases = (
+				9AB7E3CF279945F4B8E90BFD /* Sources */,
+				8DB948AB346844619CBF14C8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD850C504D59434EAC822E1C /* PBXTargetDependency */,
+			);
+			name = cos_cubed;
+			productName = cos_cubed;
+			productReference = 617D327A81F845E2AD8AAF8B /* cos_cubed */;
+			productType = "com.apple.product-type.tool";
+		};
+		C98C46F1B9DB6DEA641F4CA6 /* pi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559C5B11B15945B686B8DC28 /* Build configuration list for PBXNativeTarget "pi" */;
+			buildPhases = (
+				00C024AC7EC34B4E9AE6CC07 /* Sources */,
+				018E7E11D5CB403D81E8AA1E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12FA2D5EDFF47A6B4A6678F /* PBXTargetDependency */,
+			);
+			name = pi;
+			productName = pi;
+			productReference = 4A4B2BFA0C504613A580D75A /* pi */;
+			productType = "com.apple.product-type.tool";
+		};
+		D2E04468FBD25DB83A71B2BD /* sphere_plot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D890BF3DBF84B4A984163F7 /* Build configuration list for PBXNativeTarget "sphere_plot" */;
+			buildPhases = (
+				C95908B06FBB4853A61F124F /* Sources */,
+				75AD33041E3D4E8BB4F6D803 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED717666780245B2AB446F27 /* PBXTargetDependency */,
+			);
+			name = sphere_plot;
+			productName = sphere_plot;
+			productReference = 5BD29CF1F36844239526BC82 /* sphere_plot */;
+			productType = "com.apple.product-type.tool";
+		};
+		DA11238727E44C8EB0AE0337 /* integrate_x_sq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C56CDE69C7463EB563D90B /* Build configuration list for PBXNativeTarget "integrate_x_sq" */;
+			buildPhases = (
+				EA36E03FEE834775A7F3DFBC /* Sources */,
+				8147B8361B8D40118A00393E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86164C86AB1644FB8DB1E82C /* PBXTargetDependency */,
+			);
+			name = integrate_x_sq;
+			productName = integrate_x_sq;
+			productReference = 78EA089B27514077A858E3BF /* integrate_x_sq */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE0C0AE8339EFD4561039FE1 /* sphere_importance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8AFED2B11A487B96AC559F /* Build configuration list for PBXNativeTarget "sphere_importance" */;
+			buildPhases = (
+				030111BDA5624DA4A40DC69F /* Sources */,
+				DB83B5744C2F4E7A97C6E1C0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CE6754D692344D98FC6084A /* PBXTargetDependency */,
+			);
+			name = sphere_importance;
+			productName = sphere_importance;
+			productReference = 2043CE96E6E746C7B991CBC0 /* sphere_importance */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		234B6B8E442E49738DAD6DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = 2F743BEBE76C4514A0A7F313 /* Build configuration list for PBXProject "RTWeekend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69091CDCC6D841D2B52E8E0D;
+			projectDirPath = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io;
+			projectRoot = "";
+			targets = (
+				E840B40E5E600DDA6F4FE7FB /* ALL_BUILD */,
+				4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */,
+				B9070A3E8CA780675373743D /* cos_cubed */,
+				004ED1F40EB56655208BE239 /* cos_density */,
+				769CC51F1B3321C96958CE44 /* estimate_halfway */,
+				06006829780E64B90A3B6D22 /* inOneWeekend */,
+				DA11238727E44C8EB0AE0337 /* integrate_x_sq */,
+				C98C46F1B9DB6DEA641F4CA6 /* pi */,
+				EE0C0AE8339EFD4561039FE1 /* sphere_importance */,
+				D2E04468FBD25DB83A71B2BD /* sphere_plot */,
+				7234B08BB2D9759FEF6CAF37 /* theNextWeek */,
+				33DEC80CB3C94166596DE431 /* theRestOfYourLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D73BFE5EBDD03AE313CA10B /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/ZERO_CHECK,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build\n  make -f /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build\n  make -f /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build\n  make -f /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build\n  make -f /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F0E11620977F8A32511589 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/ALL_BUILD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C024AC7EC34B4E9AE6CC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC0B469FB5C4508BFEB5126 /* pi.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030111BDA5624DA4A40DC69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CF55D709864C14BCEE11FE /* sphere_importance.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A481DCD709E4BEC86E47B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B95D4D45574421B4DA40A8 /* estimate_halfway.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9925313FEF2D4C20A9D3BADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0011CBA5C1495D8B3F2CBD /* main.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB7E3CF279945F4B8E90BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3785590E2F6B45DDB0401B38 /* cos_cubed.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F2182349004366A1EB1A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3C992667FA4CCF99E06D94 /* cos_density.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB64918FB8BE4850A8991AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B82F58939904A2D87B98320 /* main.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95908B06FBB4853A61F124F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771D685A4B024C11B77F0E44 /* sphere_plot.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDC8E8DF8BC4A2EAB15D4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D62FC9598D442AB2103BF1 /* main.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA36E03FEE834775A7F3DFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C49FF7F02E040E28C420C86 /* integrate_x_sq.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0974071F59CD42B29465DC7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004ED1F40EB56655208BE239 /* cos_density */;
+			targetProxy = 1C9444DAA28945CA91D003EB /* PBXContainerItemProxy */;
+		};
+		458B512121A743BD8715EBA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98C46F1B9DB6DEA641F4CA6 /* pi */;
+			targetProxy = 9D3AA342EA304414B35861E4 /* PBXContainerItemProxy */;
+		};
+		5C03DC6434354E8BB7CB919D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E04468FBD25DB83A71B2BD /* sphere_plot */;
+			targetProxy = D0BDC6A6DA6F46758B6E8336 /* PBXContainerItemProxy */;
+		};
+		5CE6754D692344D98FC6084A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */;
+			targetProxy = 57C0327707214359AB1ED71E /* PBXContainerItemProxy */;
+		};
+		5EC3B764B93B440F9976350B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */;
+			targetProxy = 5E14AB51B1BC45499B63242B /* PBXContainerItemProxy */;
+		};
+		681F28541C694210B859C802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */;
+			targetProxy = 2D539E02081C4D82A6484C75 /* PBXContainerItemProxy */;
+		};
+		724645295FA94EE197295127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */;
+			targetProxy = 30BEEAFB0596450B930CA365 /* PBXContainerItemProxy */;
+		};
+		791E79B15CA0470BB2D9AF65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33DEC80CB3C94166596DE431 /* theRestOfYourLife */;
+			targetProxy = E0720A4C071F414CA88BAB79 /* PBXContainerItemProxy */;
+		};
+		86164C86AB1644FB8DB1E82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */;
+			targetProxy = CF596339170A4188922D6A5E /* PBXContainerItemProxy */;
+		};
+		93F2AC597F4646D0806D97D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0C0AE8339EFD4561039FE1 /* sphere_importance */;
+			targetProxy = B6E80F754042431C9D8EA5CE /* PBXContainerItemProxy */;
+		};
+		99DA757E56C94F70ACF939CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */;
+			targetProxy = 073E4E91D19546498A1F5D2D /* PBXContainerItemProxy */;
+		};
+		A12FA2D5EDFF47A6B4A6678F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */;
+			targetProxy = A8D37B7C8D9D4098861AA7F9 /* PBXContainerItemProxy */;
+		};
+		AF62FCDCD9C9429E93A6BFC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7234B08BB2D9759FEF6CAF37 /* theNextWeek */;
+			targetProxy = FC8F6E1F9456407A9B0D648D /* PBXContainerItemProxy */;
+		};
+		BBF57E911F734412A01D5082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA11238727E44C8EB0AE0337 /* integrate_x_sq */;
+			targetProxy = 8C8CAAA14B7F43E79CCFE5E1 /* PBXContainerItemProxy */;
+		};
+		BF4EB76714494160B8D086CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06006829780E64B90A3B6D22 /* inOneWeekend */;
+			targetProxy = F43DFE6C0D2E4AC787BEAE31 /* PBXContainerItemProxy */;
+		};
+		D46136C999704CB2B952A468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769CC51F1B3321C96958CE44 /* estimate_halfway */;
+			targetProxy = 49D6D7E17E2343E688E380FB /* PBXContainerItemProxy */;
+		};
+		D764B5FBE4F6478F8A8FD6FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */;
+			targetProxy = DE5CB6F326A94D2F81B9B594 /* PBXContainerItemProxy */;
+		};
+		D8ACC5DAA6634FC091F40939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */;
+			targetProxy = 6B6B2B08A28042589AE5C404 /* PBXContainerItemProxy */;
+		};
+		DD850C504D59434EAC822E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */;
+			targetProxy = CCD13C9FDB1C4F76A42FE904 /* PBXContainerItemProxy */;
+		};
+		ED717666780245B2AB446F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0CEA207C7007EB6E31DB29 /* ZERO_CHECK */;
+			targetProxy = BE770CDF2F224A17AF44B387 /* PBXContainerItemProxy */;
+		};
+		F620E58DF5794E75BC7596B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9070A3E8CA780675373743D /* cos_cubed */;
+			targetProxy = 6DDA3854A5434032A652D9E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		031FCFD850F24977B00A5993 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = inOneWeekend;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/inOneWeekend.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		0708B27C675B4DCEB6AC2A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = theRestOfYourLife;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/theRestOfYourLife.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		088D4C9AAE5C4E699A77B2F3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = estimate_halfway;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/estimate_halfway.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		166973CE5D3042728A8753F0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sphere_plot;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/sphere_plot.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		16BEF9D0C4B04DD580A5E19C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = integrate_x_sq;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/integrate_x_sq.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		19C4B81B7FAA429CA423EED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = inOneWeekend;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/inOneWeekend.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		1DCF2CC68595433E874BB057 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cos_cubed;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/cos_cubed.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		202F464C1FDE47FAB1EDE24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = theNextWeek;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/theNextWeek.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		2526337F01894D02999DC2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = theNextWeek;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/theNextWeek.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		26F9F41E06804E39A5F3BA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sphere_importance;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/sphere_importance.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		2C914EDEB72E4CCC8357AE91 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = theRestOfYourLife;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/theRestOfYourLife.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		2DAD353BDDF64A0ABEA3631C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = theNextWeek;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/theNextWeek.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		2E3AA362B78241FEAB576C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sphere_importance;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/sphere_importance.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		2F0D542B81D24CEFB7B92A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		33AF23725F0A411084D8C0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sphere_plot;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/sphere_plot.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		3D5C3069CB9340A7AF235356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = estimate_halfway;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/estimate_halfway.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		3ED021D8481D4864A6B7C602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SYMROOT = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build;
+			};
+			name = Debug;
+		};
+		491DAE8F839A4FA9A7A86582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cos_density;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/cos_density.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		4A157EFA5CD649608E34EEAE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sphere_importance;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/sphere_importance.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		4F3F565F50CC491DBFFB34D3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build;
+			};
+			name = MinSizeRel;
+		};
+		58306421A7E649A08875EB5C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pi;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/pi.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		5B76D7B7541F466995301392 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = estimate_halfway;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/estimate_halfway.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		5ECD4ED1B9BC4BEA8AA6FD19 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sphere_importance;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/sphere_importance.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		6B259453079042C5B04D6A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pi;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/pi.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		6F2004AE1D4F4449AA37281C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = inOneWeekend;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/inOneWeekend.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		6F9C5E71391846A7A1617654 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = theRestOfYourLife;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/theRestOfYourLife.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		7324B53EDA734514AB98AED5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cos_cubed;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/cos_cubed.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		7E455CC07B6E49EE891A13FE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = inOneWeekend;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/inOneWeekend.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		83D301960F8F4E8ABC62BA04 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cos_density;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/cos_density.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		9061C748CC0C492F97BDA4F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cos_cubed;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/cos_cubed.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		97EABA056DAE43BF82584FB3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		991DA7821932412DA25D266A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build;
+			};
+			name = Release;
+		};
+		9FA1387AEEA547118719F9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cos_cubed;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/cos_cubed.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		A047AFED5A184DC1BFC25B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sphere_plot;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/sphere_plot.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		A167E0541A824F3DB18C4D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = estimate_halfway;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/estimate_halfway.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		A57D6323739044A9B09060AB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sphere_plot;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/sphere_plot.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		A5D901B082DC45709D5A841B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pi;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/pi.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		B27B0289AF584404BE58A9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		B361365084A14E86BF24AABF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = integrate_x_sq;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/integrate_x_sq.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		B68F2D295A3B49A0BDFAC2D9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cos_density;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/cos_density.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		B6E9F7900447428BA87DD844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = integrate_x_sq;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/integrate_x_sq.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		BFA65FBD26AB44E6BED61371 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		C36B76CC64AE4F3BB6884993 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		C92E6DE0B0C94475AC293A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cos_density;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/cos_density.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		D9925258D5054A6FA487C4D8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		E0329AEF519C46A79ECBB18B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = theNextWeek;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/theNextWeek.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		E9759A9523844A55B23591C6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		EC2A264E57F649199CABF4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = theRestOfYourLife;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/theRestOfYourLife.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		F092A0B3F3A64744B46A53B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		FB2259008095478FAD52CA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		FC37B9CA73DE4432857739BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = integrate_x_sq;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/integrate_x_sq.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		FFEF2D3E03694122B432473A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/src,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++11'",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsometimes-uninitialized",
+					"-Wunused-variable",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pi;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/build/pi.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C8A874832A431188D89FBB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27B0289AF584404BE58A9D9 /* Debug */,
+				2F0D542B81D24CEFB7B92A52 /* Release */,
+				C36B76CC64AE4F3BB6884993 /* MinSizeRel */,
+				BFA65FBD26AB44E6BED61371 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D890BF3DBF84B4A984163F7 /* Build configuration list for PBXNativeTarget "sphere_plot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A047AFED5A184DC1BFC25B88 /* Debug */,
+				33AF23725F0A411084D8C0EB /* Release */,
+				166973CE5D3042728A8753F0 /* MinSizeRel */,
+				A57D6323739044A9B09060AB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2F743BEBE76C4514A0A7F313 /* Build configuration list for PBXProject "RTWeekend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED021D8481D4864A6B7C602 /* Debug */,
+				991DA7821932412DA25D266A /* Release */,
+				4F3F565F50CC491DBFFB34D3 /* MinSizeRel */,
+				97EABA056DAE43BF82584FB3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		418C72616B7D44C5B3FB7827 /* Build configuration list for PBXNativeTarget "cos_density" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491DAE8F839A4FA9A7A86582 /* Debug */,
+				C92E6DE0B0C94475AC293A30 /* Release */,
+				83D301960F8F4E8ABC62BA04 /* MinSizeRel */,
+				B68F2D295A3B49A0BDFAC2D9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4C8AFED2B11A487B96AC559F /* Build configuration list for PBXNativeTarget "sphere_importance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F9F41E06804E39A5F3BA95 /* Debug */,
+				2E3AA362B78241FEAB576C2D /* Release */,
+				4A157EFA5CD649608E34EEAE /* MinSizeRel */,
+				5ECD4ED1B9BC4BEA8AA6FD19 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		559C5B11B15945B686B8DC28 /* Build configuration list for PBXNativeTarget "pi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B259453079042C5B04D6A11 /* Debug */,
+				A5D901B082DC45709D5A841B /* Release */,
+				58306421A7E649A08875EB5C /* MinSizeRel */,
+				FFEF2D3E03694122B432473A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68C56CDE69C7463EB563D90B /* Build configuration list for PBXNativeTarget "integrate_x_sq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E9F7900447428BA87DD844 /* Debug */,
+				FC37B9CA73DE4432857739BF /* Release */,
+				B361365084A14E86BF24AABF /* MinSizeRel */,
+				16BEF9D0C4B04DD580A5E19C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A1F84E0794E43EF90DCC09A /* Build configuration list for PBXNativeTarget "theNextWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202F464C1FDE47FAB1EDE24A /* Debug */,
+				2526337F01894D02999DC2E7 /* Release */,
+				2DAD353BDDF64A0ABEA3631C /* MinSizeRel */,
+				E0329AEF519C46A79ECBB18B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C9D7D7B9B359468884561B75 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2259008095478FAD52CA2D /* Debug */,
+				F092A0B3F3A64744B46A53B1 /* Release */,
+				E9759A9523844A55B23591C6 /* MinSizeRel */,
+				D9925258D5054A6FA487C4D8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E72A8784A9244332A3308B3A /* Build configuration list for PBXNativeTarget "theRestOfYourLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0708B27C675B4DCEB6AC2A25 /* Debug */,
+				EC2A264E57F649199CABF4F8 /* Release */,
+				6F9C5E71391846A7A1617654 /* MinSizeRel */,
+				2C914EDEB72E4CCC8357AE91 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E959A0A1E1FA441692D2D0A9 /* Build configuration list for PBXNativeTarget "inOneWeekend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2004AE1D4F4449AA37281C /* Debug */,
+				19C4B81B7FAA429CA423EED6 /* Release */,
+				031FCFD850F24977B00A5993 /* MinSizeRel */,
+				7E455CC07B6E49EE891A13FE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9EC73F73D1C405EAA04ABC1 /* Build configuration list for PBXNativeTarget "estimate_halfway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A167E0541A824F3DB18C4D71 /* Debug */,
+				3D5C3069CB9340A7AF235356 /* Release */,
+				5B76D7B7541F466995301392 /* MinSizeRel */,
+				088D4C9AAE5C4E699A77B2F3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB601F8DB1D34FF68CA7FC3D /* Build configuration list for PBXNativeTarget "cos_cubed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9061C748CC0C492F97BDA4F9 /* Debug */,
+				9FA1387AEEA547118719F9CD /* Release */,
+				7324B53EDA734514AB98AED5 /* MinSizeRel */,
+				1DCF2CC68595433E874BB057 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 234B6B8E442E49738DAD6DAC /* Project object */;
+}

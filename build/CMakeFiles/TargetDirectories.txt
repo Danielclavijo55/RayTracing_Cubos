@@ -1,0 +1,12 @@
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/inOneWeekend.dir
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/theNextWeek.dir
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/theRestOfYourLife.dir
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/cos_cubed.dir
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/cos_density.dir
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/integrate_x_sq.dir
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/pi.dir
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/estimate_halfway.dir
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/sphere_importance.dir
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/sphere_plot.dir
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/ALL_BUILD.dir
+/Users/cla/Documents/8avoSemestre/CVI/raytracing.github.io/build/CMakeFiles/ZERO_CHECK.dir
